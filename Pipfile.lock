@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "5c4db206bf907abd8b96dff10a673b0b0242ed519c2821214580f4facb3b723a"
+            "sha256": "b025e5e12dbd5623719d334a5a9b45a6c88dbd7a25ab1bf0f414f3ea419a70b5"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -91,10 +91,10 @@
         },
         "django-redis-cache": {
             "hashes": [
-                "sha256:d87bbc3d92a39a079bc31a290df9caba8487d37a02981def31168e39845031e8"
+                "sha256:77dcb9d11beef5ce77dadfb95328b7712c3d9bde8419a0ba92968712b9bff48b"
             ],
             "index": "pypi",
-            "version": "==1.8.1"
+            "version": "==2.0.0"
         },
         "gevent": {
             "hashes": [
@@ -324,10 +324,10 @@
         },
         "redis": {
             "hashes": [
-                "sha256:8a1900a9f2a0a44ecf6e8b5eb3e967a9909dfed219ad66df094f27f7d6f330fb",
-                "sha256:a22ca993cea2962dbb588f9f30d0015ac4afcc45bee27d3978c0dbe9e97c6c0f"
+                "sha256:724932360d48e5407e8f82e405ab3650a36ed02c7e460d1e6fddf0f038422b54",
+                "sha256:9b19425a38fd074eb5795ff2b0d9a55b46a44f91f5347995f27e3ad257a7d775"
             ],
-            "version": "==2.10.6"
+            "version": "==3.2.0"
         },
         "selenium": {
             "hashes": [
