@@ -1,2 +1,1 @@
--i https://pypi.org/simple/
-
+python-3.7.2
