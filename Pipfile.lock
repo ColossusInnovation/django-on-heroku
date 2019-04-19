@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "97814b11a8b553feb8515f1b1bd3d798f0011f14cee8e972d4ade56aa69a3686"
+            "sha256": "f05cfac737747c5c7c99bbc6b2f905c9f5cd1b028c3055a313a98dd717f87b05"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -38,11 +38,11 @@
         },
         "behave-django": {
             "hashes": [
-                "sha256:23b2526a41f93a043ec932eb92499ecb7006fe59af52aa2b18f57e5133d3ce08",
-                "sha256:740835caf6de37fb1c2324d403ab7bb615a69532bc0bdfe2ff8360339018d24f"
+                "sha256:b0a994f6ca329ba9692f6f207048c4c33179d671f9aa526e882d43785d2e2e3d",
+                "sha256:fdabff707486daa3a0d0e601a4d9b0a45c39a31e614bf5d53a8dc54fe75abb50"
             ],
             "index": "pypi",
-            "version": "==1.2.0"
+            "version": "==1.3.0"
         },
         "billiard": {
             "hashes": [
@@ -358,10 +358,10 @@
         },
         "urllib3": {
             "hashes": [
-                "sha256:61bf29cada3fc2fbefad4fdf059ea4bd1b4a86d2b6d15e1c7c0b582b9752fe39",
-                "sha256:de9529817c93f27c8ccbfead6985011db27bd0ddfcdb2d86f3f663385c6a9c22"
+                "sha256:4c291ca23bbb55c76518905869ef34bdd5f0e46af7afe6861e8375643ffee1a0",
+                "sha256:9a247273df709c4fedb38c711e44292304f73f39ab01beda9f6b9fc375669ac3"
             ],
-            "version": "==1.24.1"
+            "version": "==1.24.2"
         },
         "vine": {
             "hashes": [
