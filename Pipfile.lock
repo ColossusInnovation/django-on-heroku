@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "72ddfb6f447020a3e85280f3835dcb6cce8c9d49deb095d8f469e10883077eeb"
+            "sha256": "4b8d820025ce0eac70b8f3c039a0a4c8b67ca9a1777b970a44afdc465aa01ff8"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -23,10 +23,10 @@
         },
         "asgiref": {
             "hashes": [
-                "sha256:7e06d934a7718bf3975acbf87780ba678957b87c7adc056f13b6215d610695a0",
-                "sha256:ea448f92fc35a0ef4b1508f53a04c4670255a3f33d22a81c8fc9c872036adbe5"
+                "sha256:3e4192eaec0758b99722f0b0666d5fbfaa713054d92e8de5b58ba84ec5ce696f",
+                "sha256:c8f49dd3b42edcc51d09dd2eea8a92b3cfc987ff7e6486be734b4d0cbfd5d315"
             ],
-            "version": "==3.2.3"
+            "version": "==3.2.5"
         },
         "backcall": {
             "hashes": [
@@ -60,11 +60,11 @@
         },
         "celery": {
             "hashes": [
-                "sha256:3c5fcd6bfcf9a6323cb742cfc121d1790d50cfeddf300ba723cfa0b356413f07",
-                "sha256:a650525303ee866fb0c62c82f68681fcc2183eebbfafae552c27d30125fe518b"
+                "sha256:108a0bf9018a871620936c33a3ee9f6336a89f8ef0a0f567a9001f4aa361415f",
+                "sha256:5b4b37e276033fe47575107a2775469f0b721646a08c96ec2c61531e4fe45f2a"
             ],
             "index": "pypi",
-            "version": "==4.4.1"
+            "version": "==4.4.2"
         },
         "decorator": {
             "hashes": [
@@ -282,10 +282,10 @@
         },
         "prompt-toolkit": {
             "hashes": [
-                "sha256:a402e9bf468b63314e37460b68ba68243d55b2f8c4d0192f85a019af3945050e",
-                "sha256:c93e53af97f630f12f5f62a3274e79527936ed466f038953dfa379d4941f651a"
+                "sha256:859e1b205b6cf6a51fa57fa34202e45365cf58f8338f0ee9f4e84a4165b37d5b",
+                "sha256:ebe6b1b08c888b84c50d7f93dee21a09af39860144ff6130aadbd61ae8d29783"
             ],
-            "version": "==3.0.3"
+            "version": "==3.0.4"
         },
         "psycopg2-binary": {
             "hashes": [
@@ -334,10 +334,10 @@
         },
         "pygments": {
             "hashes": [
-                "sha256:2a3fe295e54a20164a9df49c75fa58526d3be48e14aceba6d6b1e8ac0bfd6f1b",
-                "sha256:98c8aa5a9f778fcd1026a17361ddaf7330d1b7c62ae97c3bb0ae73e0b9b6b0fe"
+                "sha256:647344a061c249a3b74e230c739f434d7ea4d8b1d5f3721bc0f3558049b38f44",
+                "sha256:ff7a40b4860b727ab48fad6360eb351cc1b33cbf9b15a0f689ca5353e9463324"
             ],
-            "version": "==2.5.2"
+            "version": "==2.6.1"
         },
         "pyhamcrest": {
             "hashes": [
