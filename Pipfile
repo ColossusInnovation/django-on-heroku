@@ -14,7 +14,7 @@ whitenoise = "==5.0.1"
 gevent = "==1.4.0"
 waitress = "==1.4.3"
 hiredis = "==1.0.1"
-django-redis-cache = "==2.1.0"
+django-redis-cache = "==2.1.1"
 Django = "==3.0.5"
 
 behave = "==1.2.6"
