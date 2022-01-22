@@ -9,7 +9,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'RESETME')
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-ALLOWED_HOSTS = '*'
+ALLOWED_HOSTS = ['*']
 
 DEBUG = os.getenv('DJANGO_DEBUG', 'True') == 'True'
 
