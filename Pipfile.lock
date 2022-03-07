@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "f03dc91acf201a6ead28a162be7019f0d1d6d548664bf0a84a5d91e95eadf54b"
+            "sha256": "d4795d12acbd1db1e24f4ae5f800333cf1064c6604de2d8c27f66fe7bd600ebf"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -16,11 +16,11 @@
     "default": {
         "amqp": {
             "hashes": [
-                "sha256:1e5f707424e544078ca196e72ae6a14887ce74e02bd126be54b7c03c971bef18",
-                "sha256:9cd81f7b023fc04bbb108718fbac674f06901b77bfcdce85b10e2a5d0ee91be5"
+                "sha256:446b3e8a8ebc2ceafd424ffcaab1c353830d48161256578ed7a65448e601ebed",
+                "sha256:a575f4fa659a2290dc369b000cff5fea5c6be05fe3f2d5e511bcf56c7881c3ef"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==5.0.9"
+            "version": "==5.1.0"
         },
         "asgiref": {
             "hashes": [
@@ -324,11 +324,11 @@
         },
         "kombu": {
             "hashes": [
-                "sha256:81a90c1de97e08d3db37dbf163eaaf667445e1068c98bfd89f051a40e9f6dbbd",
-                "sha256:eeaeb8024f3a5cfc71c9250e45cddb8493f269d74ada2f74909a93c59c4b4179"
+                "sha256:37cee3ee725f94ea8bb173eaab7c1760203ea53bbebae226328600f9d2799610",
+                "sha256:8b213b24293d3417bcf0d2f5537b7f756079e3ea232a8386dcc89a59fd2361a4"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==5.2.3"
+            "version": "==5.2.4"
         },
         "matplotlib-inline": {
             "hashes": [
@@ -556,11 +556,11 @@
         },
         "waitress": {
             "hashes": [
-                "sha256:29af5a53e9fb4e158f525367678b50053808ca6c21ba585754c77d790008c746",
-                "sha256:69e1f242c7f80273490d3403c3976f3ac3b26e289856936d1f620ed48f321897"
+                "sha256:58bd2fa1c2c82adf6e322ae7151f4fbd5176d2769602407a61b9c92b1606c2ef",
+                "sha256:ec8a8d9b6b15f3bb2c1a82b8f3929a029c333c35fcafb08c185a9e562d8cc9c2"
             ],
             "index": "pypi",
-            "version": "==2.0.0"
+            "version": "==2.1.0"
         },
         "wcwidth": {
             "hashes": [
