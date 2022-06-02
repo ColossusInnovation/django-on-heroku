@@ -8,15 +8,3 @@ updates:
   open-pull-requests-limit: 10
   reviewers:
   - zachmccormick
-  ignore:
-  - dependency-name: ipython
-    versions:
-    - 7.19.0
-    - 7.20.0
-  - dependency-name: django
-    versions:
-    - 3.1.5
-    - 3.1.6
-  - dependency-name: django-extensions
-    versions:
-    - 3.1.0
