@@ -19,5 +19,5 @@ Django = "==4.1"
 
 behave = "==1.2.6"
 behave-django = "==1.4.0"
-PyHamcrest = "==2.0.3"
+PyHamcrest = "==2.0.4"
 splinter = "==0.18.1"
