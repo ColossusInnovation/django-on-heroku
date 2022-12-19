@@ -6,7 +6,7 @@ verify_ssl = true
 [packages]
 psycopg2-binary = "==2.9.5"
 dj-database-url = "==1.2.0"
-pytz = "==2022.6"
+pytz = "==2022.7"
 django-extensions = "==3.2.1"
 ipython = "==8.7.0"
 celery = "==5.2.7"
