@@ -4,7 +4,7 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [packages]
-psycopg2-binary = "==2.9.5"
+psycopg2-binary = "==2.9.6"
 dj-database-url = "==1.2.0"
 pytz = "==2023.2"
 django-extensions = "==3.2.1"
