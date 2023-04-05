@@ -15,7 +15,7 @@ gevent = "==22.10.2"
 waitress = "==2.1.2"
 hiredis = "==2.2.2"
 django-redis-cache = "==3.0.1"
-Django = "==4.1.7"
+Django = "==4.2"
 
 behave = "==1.2.6"
 behave-django = "==1.4.0"
