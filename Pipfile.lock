@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "a75e02646583f4be47a8d2634d085670883586b2211ae0314c4ba8dfae918344"
+            "sha256": "bc6ce8813c1ce6708195b7c6fe59a67fbb27f2666a8d87ce7efb5a534c9ad5e9"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -109,10 +109,11 @@
         },
         "click-repl": {
             "hashes": [
-                "sha256:94b3fbbc9406a236f176e0506524b2937e4b23b6f4c0c0b2a0a83f8a64e9194b",
-                "sha256:cd12f68d745bf6151210790540b4cb064c7b13e571bc64b6957d98d120dacfd8"
+                "sha256:17849c23dba3d667247dc4defe1757fff98694e90fe37474f3feebb69ced26a9",
+                "sha256:fb7e06deb8da8de86180a33a9da97ac316751c094c6899382da7feeeeb51b812"
             ],
-            "version": "==0.2.0"
+            "markers": "python_version >= '3.6'",
+            "version": "==0.3.0"
         },
         "decorator": {
             "hashes": [
@@ -397,11 +398,11 @@
         },
         "kombu": {
             "hashes": [
-                "sha256:d084ec1f96f7a7c37ba9e816823bdbc08f0fc7ddb3a5be555805e692102297d8",
-                "sha256:fa9be55281bb351ba9da582b2a74e3dd5015b8d075b287e4d16f0b2f25fefcc2"
+                "sha256:48ee589e8833126fd01ceaa08f8a2041334e9f5894e5763c8486a550454551e9",
+                "sha256:fbd7572d92c0bf71c112a6b45163153dea5a7b6a701ec16b568c27d0fd2370f2"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==5.3.0"
+            "version": "==5.3.1"
         },
         "matplotlib-inline": {
             "hashes": [
@@ -413,6 +414,7 @@
         },
         "parse": {
             "hashes": [
+                "sha256:6ce007645384a91150cb7cd7c8a9db2559e273c2e2542b508cd1e342508c2601",
                 "sha256:9ff82852bcb65d139813e2a5197627a94966245c897796760a3a2a8eb66f020b"
             ],
             "version": "==1.19.0"
@@ -682,11 +684,11 @@
         },
         "whitenoise": {
             "hashes": [
-                "sha256:599dc6ca57e48929dfeffb2e8e187879bfe2aed0d49ca419577005b7f2cc930b",
-                "sha256:a02d6660ad161ff17e3042653c8e3f5ecbb2a2481a006bde125b9efb9a30113a"
+                "sha256:15fe60546ac975b58e357ccaeb165a4ca2d0ab697e48450b8f0307ca368195a8",
+                "sha256:16468e9ad2189f09f4a8c635a9031cc9bb2cdbc8e5e53365407acf99f7ade9ec"
             ],
             "index": "pypi",
-            "version": "==6.4.0"
+            "version": "==6.5.0"
         },
         "zope.event": {
             "hashes": [
