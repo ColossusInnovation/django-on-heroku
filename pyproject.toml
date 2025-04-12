@@ -1,0 +1,93 @@
+[project]
+name = "django-on-heroku"
+version = "0.1.0"
+dependencies = [
+    "psycopg2-binary==2.9.10",
+    "dj-database-url==2.3.0",
+    "pytz==2025.2",
+    "django-extensions==4.1",
+    "ipython==9.1.0",
+    "whitenoise==6.9.0",
+    "gevent==24.11.1",
+    "waitress==3.0.2",
+    "hiredis==3.1.0",
+    "django-redis-cache==3.0.1",
+    "Django==5.2",
+]
+requires-python = ">=3.13"
+
+[dependency-groups]
+dev = [
+    "coveralls",
+    "djlint",
+    "ruff",
+]
+
+[tool.ruff]
+exclude = [
+    ".idea",
+    ".git",
+    ".venv",
+    ".vscode",
+    "staticfiles",
+    "node_modules",
+    "**/migrations/*.py"
+]
+
+line-length = 120
+indent-width = 4
+target-version = "py313"
+
+[tool.ruff.lint]
+select = [
+    "E", # pycodestyle errors
+    "F", # pyflakes
+    "W", # pycodestyle warnings
+    "C90", # mccabe complexity
+    "I", # isort
+    "N", # pep8-naming
+    "UP", # pyupgrade
+    "ANN", # flake8-annotations
+    "ASYNC", # flake8-async
+    "S", # flake8-bandit
+    "FBT", # flake8-boolean-trap
+    "B", # flake8-bugbear
+    "A", # flake8-builtins
+    "COM", # flake8-commas
+    "C4", # flake8-comprehensions
+    "DTZ", # flake8-datetimez
+    "T10", # flake8-debugger
+    "DJ", # flake8-django
+    "EXE", # flake8-executable
+    "LOG", # flake8-logging
+    "G", # flake8-logging-format
+    "T20", # flake8-print
+    "Q", # flake8-quotes
+    "RET", # flake8-return
+    "SIM", # flake8-simplify
+    "ARG", # flake8-unused-arguments
+    "PTH", # flake8-use-pathlib
+    "PL", # pylint
+    "TRY", # tryceratops
+    "FLY", # flynt
+    "PERF", # perflint
+    "FURB", # refurb
+    "RUF", # ruff-specific rules
+]
+ignore = [
+    "RUF012", # mutable-class-default is a bit annoying for django
+    "TRY003", # things like raise ValueError("foo") violate this
+]
+fixable = ["ALL"]
+unfixable = []
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+
+[tool.djlint]
+profile = "django"
+indent = 2
+ignore = "H030,H031" # meta is in its own template
