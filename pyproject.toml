@@ -8,7 +8,7 @@ dependencies = [
     "django-extensions==4.1",
     "ipython==9.1.0",
     "whitenoise==6.9.0",
-    "gevent==24.11.1",
+    "gevent==25.4.1",
     "waitress==3.0.2",
     "hiredis==3.1.0",
     "django-redis-cache==3.0.1",
