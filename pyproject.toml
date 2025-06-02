@@ -6,7 +6,7 @@ dependencies = [
     "dj-database-url==2.3.0",
     "pytz==2025.2",
     "django-extensions==4.1",
-    "ipython==9.1.0",
+    "ipython==9.3.0",
     "whitenoise==6.9.0",
     "gevent==24.11.1",
     "waitress==3.0.2",
