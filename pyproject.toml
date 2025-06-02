@@ -3,7 +3,7 @@ name = "django-on-heroku"
 version = "0.1.0"
 dependencies = [
     "psycopg2-binary==2.9.10",
-    "dj-database-url==2.3.0",
+    "dj-database-url==3.0.0",
     "pytz==2025.2",
     "django-extensions==4.1",
     "ipython==9.1.0",
